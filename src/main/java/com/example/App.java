@@ -3,11 +3,12 @@ package com.example;
 import com.example.config.AppConfig;
 import com.example.services.NotificationService;
 import com.example.services.SocialMediaService;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-
+@SpringBootApplication
 public class App {
     public static void main(String[] args) {
 

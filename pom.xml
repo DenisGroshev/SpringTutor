@@ -21,6 +21,17 @@
       <artifactId>spring-context</artifactId>
       <version>${spring.version}</version>
     </dependency>
+
+    <dependency>
+      <groupId>com.example</groupId>
+      <artifactId>notification-spring-boot-starter</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+        <version>3.4.4</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -33,6 +44,10 @@
           <source>11</source>
           <target>11</target>
         </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
